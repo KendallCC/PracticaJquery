@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica jquery</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+  <div class="container-fluid bg-black p-2">
+    <h1 class="text-center" style="color: white;">Practica de Jquery</h1>
+  </div>
+
+      <h2 class="text-center">Practica 1</h2>
+
+<div class="container">
+    <div class="row g-2" style="place-items:center;">
+        <div class="col">
+<div class="card" style="width:18rem; margin-left: 5rem;">
+  <img src="./images/imagen1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+  </div>
+</div>
+        </div>
+        <div class="col" id="ejemplo1">
+            <div class="card" style="width:18rem; margin: 5rem; padding-top: 1rem;">
+                <img src="./images/imagen2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width:18rem; margin-left: 5rem;">
+                <img src="./images/imagen3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<hr style="height: 1rem; background-color: black;">
+
+<div class="container" id="Ejemplo2">
+    <div class="card text-center">
+        <div class="card-header">
+          Practica 2
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">un texto normal de titulo</h5>
+          <p class="card-text">un texto de extra</p>
+          <a  class="btn btn-primary" id="botonEjemplo2">Boton para borrar</a>
+        </div>
+      </div>
+</div>
+
+<hr style="height: 1rem; background-color: black;">
+
+<div class="container px-4 py-5 text-center" id="ubicacion">
+    <h2 class="pb-2 border-bottom text-center">Practica 3</h2>
+    <button class="btn btn-info" onclick="mapa()">Generar mapa</button>
+  </div>
+
+<div id="map" style="height: 500px;"></div>
+
+
+<hr style="height: 1rem; background-color: black;">
+
+
+<div class="container text-center" id="Translate">
+    <h2 class="pb-2 border-bottom text-center">Google translation</h2>
+    <div id="google_translate_element"></div>
+  </div>
+  </div>
+
+  <hr style="height: 1rem; background-color: black;">
+
+ 
+    <div class="container">
+      <div id="grafico"></div>
+    </div>
+ 
+
+<script src="./js/jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/PRACTICAJQUERY.js"></script>
+
+
+
+<script type="text/javascript"
+  src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script async
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUAkoaWW27Js3TI4iQuPawetzaz8_L944&libraries=geometry&callback=initMap"></script>
+
+
+
+</body>
+</html>
